@@ -1,4 +1,4 @@
-#Description
+##Description
 
 The addon changes the appearance of decks' names in the main window and deck screen, adding thumbnails and increasing the font size.
 It also handles the ordering of decks in the main window.
@@ -6,7 +6,7 @@ It also handles the ordering of decks in the main window.
 PIC before
 PIC after
 
-#Installation
+##Installation
 
 Copy Lstyle folder into your Anki/addons21 folder 
 Default path on windows:
@@ -14,11 +14,13 @@ Default path on windows:
 
 PIC
 
-#Usage
+##Usage
 
 In order to apply the styling to a deck, a number should be added to it's name:
 For example
-  Remembering the Kanji -> 4. Rememvering the Kanji
+
+  Remembering the Kanji -> 4. Remembering the Kanji
+  
 The number should be followed by a . and a space. 
 This part will get deleted from the displayed names when the styling is applyed -- it is only needed for marking decks which need to be styled as well as manualy ordering them in the main screen.
 Multiple numbers separated by . can be used (example "04.8.15. "), which is intended for numbering subdecks, but is not necessary. 
@@ -32,7 +34,7 @@ PIC_decknames
 PIC_icons
 PIC_styling
 
-#Comments
+##Comments
 
 The addon is tested to work alongside the "Enhance main window" addon.
 
