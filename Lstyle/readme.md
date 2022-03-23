@@ -23,8 +23,8 @@ In order to apply the styling to a deck, a number followed by a . and a space sh
  
 <details>
   <summary>specifics</summary> 
-The added part will get deleted from the displayed names when the styling is applyed – it is only there for marking decks which need to be styled as well as for manualy setting the decks' order in the main screen.\
-Multiple numbers separated by . can be used, e.g. "04.8.15. ", which is intended for numbering subdecks, but is not necessary.\
+> The added part will get deleted from the displayed names when the styling is applyed – it is only there for marking decks which need to be styled as well as for manualy setting the decks' order in the main screen.
+Multiple numbers separated by . can be used, e.g. "04.8.15. ", which is intended for numbering subdecks, but is not necessary.
 Numbers can be repeated, so you can simply add "0. " at the beginning of every deck's name, if the addon's ordering feature is not needed.
 </details> 
 
