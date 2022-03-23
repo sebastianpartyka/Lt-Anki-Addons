@@ -8,9 +8,16 @@ PIC after
 
 ## Installation
 
-Copy Lstyle folder into your Anki/addons21 folder 
+Copy the Lstyle folder into your Anki/addons21 folder 
 Default path on windows:
   path/path
+  
+  
+    git clone https://github.com/glutanimate/review-heatmap.git
+    cd review-heatmap
+    aab build
+
+For more 
 
 PIC
 
@@ -22,14 +29,14 @@ For example
  > DeckName → 7. DeckName
  
 <details>
-  <summary>details</summary> 
-The added part will get deleted from the displayed names when the styling is applyed -- it is only there for marking decks which need to be styled as well as for manualy setting the decks' order in the main screen.
+  <summary>specifics</summary> 
+The added part will get deleted from the displayed names when the styling is applyed – it is only there for marking decks which need to be styled as well as for manualy setting the decks' order in the main screen.
 Multiple numbers separated by . can be used (example "04.8.15. "), which is intended for numbering subdecks, but is not necessary. 
 Numbers can be repeated, so you can simply add "0. " at the beginning of every deck's name, if the ordering feature of the addon is not needed.
 </details> 
  
 
-In order to add a thumbnails to decks a folder "icons" should be created inside your ankiusername/collection.media folder. There all thumbnails are placed in ".png" format, with the filenames corresponding to the deck's names (number excluded).
+To add thumbnails to decks a folder "icons" should be created inside your ankiusername/collection.media folder. There all thumbnails are placed in ".png" format, with the filenames corresponding to the deck's names (number excluded).
 For example, if the deck's name with the number is "01. DeckName" the thumbnail filename should be "DeckName.png".
 If a thumbnail file for a numbered deck is not found, the thumbnail is not displayed, but the styling of the font is still applyed and the number is removed.
 
