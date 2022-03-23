@@ -23,11 +23,10 @@ In order to apply the styling to a deck, a number followed by a . and a space sh
  
 <details>
   <summary>specifics</summary> 
-The added part will get deleted from the displayed names when the styling is applyed – it is only there for marking decks which need to be styled as well as for manualy setting the decks' order in the main screen.
-Multiple numbers separated by . can be used, e.g. "04.8.15. ", which is intended for numbering subdecks, but is not necessary. 
-Numbers can be repeated, so you can simply add "0. " at the beginning of every deck's name, if the ordering feature of the addon is not needed.
+The added part will get deleted from the displayed names when the styling is applyed – it is only there for marking decks which need to be styled as well as for manualy setting the decks' order in the main screen.\n
+Multiple numbers separated by . can be used, e.g. "04.8.15. ", which is intended for numbering subdecks, but is not necessary.\n
+Numbers can be repeated, so you can simply add "0. " at the beginning of every deck's name, if the addon's ordering feature is not needed.
 </details> 
- 
 
 To add thumbnails to decks a folder "icons" should be created inside your `ankiusername/collection.media` folder. There all thumbnails are placed in ".png" format, with the filenames corresponding to the deck's names (number excluded).
 For example, if the deck's name with the number is "01. DeckName" the thumbnail filename should be "DeckName.png".
