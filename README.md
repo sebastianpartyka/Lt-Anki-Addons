@@ -1,2 +1,1 @@
-# Lt-Anki-Addons
-A humble set of most basic addons
+there is only one addon so far
