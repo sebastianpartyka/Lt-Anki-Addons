@@ -10,12 +10,7 @@ PIC after
 
 Copy the Lstyle folder into your Anki/addons21 folder 
 Default path on windows:
-  path/path
-  
-  
-    git clone https://github.com/glutanimate/review-heatmap.git
-    cd review-heatmap
-    aab build
+    path/path
 
 For more 
 
