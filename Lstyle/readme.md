@@ -4,8 +4,8 @@ The addon changes the appearance of decks' names in the main window and deck scr
 It also handles the ordering of decks in the main window.
 
 <p align="middle">
-  <img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Lstyle/before.png" title="Before" style="width:40%; margin: 0px; padding: 0px">
-  <img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Lstyle/after.png" title="After" style="width:40%; margin: 0px; padding: 0px">
+  <img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Lstyle/before.png" title="Before" style="width:45%">
+  <img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Lstyle/after.png" title="After" style="width:45%">
 </p>
 
 ## Installation
@@ -33,9 +33,11 @@ E.g. if the deck's name with the number is "01. DeckName" the thumbnail filename
   <summary>specifics</summary> 
  If a thumbnail file for a numbered deck is not found, the thumbnail is not displayed, but the styling of the font is still applied and the number is removed:
 
-PIC_decknames
-PIC_icons
-PIC_styling
+<p align="middle">
+  <img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Lstyle/s0.png" title="Before" style="width:30%">
+  <img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Lstyle/s1.png" title="Icons Folder" style="width:30%">
+  <img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Lstyle/s2.png" title="After" style="width:30%">
+</p>
 </details> 
 
 ## Comments
