@@ -8,7 +8,7 @@ PIC after
 
 ## Installation
 
-Copy the `Lstyle` folder into your `~\ANKI\addons21\` folder
+Copy the `Lstyle` folder into your `~\addons21\` folder
 
 PIC
 
