@@ -10,8 +10,6 @@ PIC after
 
 Copy the `Lstyle` folder into your `~\addons21\` folder
 
-PIC
-
 ## Usage
 
 In order to apply the styling to a deck, a number followed by a . and a space should be added to its name:
