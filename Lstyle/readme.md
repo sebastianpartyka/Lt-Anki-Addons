@@ -12,7 +12,7 @@ Copy the `Lstyle` folder into your `~\addons21\` folder
 
 ## Usage
 
-In order to apply the styling to a deck, a number followed by a . and a space should be added to its name:
+The addon only changes the appearance of the selected decks. In order to apply the styling to a deck, a number followed by a . and a space should be added to its name:
 
  > DeckName → 7. DeckName
  
