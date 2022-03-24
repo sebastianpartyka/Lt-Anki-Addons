@@ -5,4 +5,4 @@ The kit contains bare bones of a deck styling addon: a JavaScript file to modify
 “HTML Window source” "AnkiWebView” 
 
 
-https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Anki-Deck-Styling-Addon-Template/dyemainwindowlightblue.png
+<img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Anki-Deck-Styling-Addon-Template/dyemainwindowlightblue.png">
