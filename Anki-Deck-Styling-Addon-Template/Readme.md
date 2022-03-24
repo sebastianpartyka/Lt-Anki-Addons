@@ -3,3 +3,6 @@ The kit contains bare bones of a deck styling addon: a JavaScript file to modify
 (the stock example uses a jQuery line to dye the backbround light-blue), and an _init_ python script to embed the JavaScript text into Anki.
 
 “HTML Window source” "AnkiWebView” 
+
+
+https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Anki-Deck-Styling-Addon-Template/dyemainwindowlightblue.png
