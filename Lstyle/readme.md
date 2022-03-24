@@ -3,9 +3,9 @@
 The addon changes the appearance of decks' names in the main window and deck screen, by adding thumbnails and increasing the font size.
 It also handles the ordering of decks in the main window.
 
-<p float="center">
-  <img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Lstyle/before.png" title="Before" style="width:40%; margin: 0">
-  <img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Lstyle/after.png" title="After" style="width:40%; margin: 0">
+<p align="middle">
+  <img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Lstyle/before.png" title="Before" style="width:40%; margin: 0px; padding: 0px">
+  <img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Lstyle/after.png" title="After" style="width:40%; margin: 0px; padding: 0px">
 </p>
 
 ## Installation
