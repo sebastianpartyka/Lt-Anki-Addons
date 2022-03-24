@@ -25,7 +25,7 @@ Multiple numbers separated by . can be used, e.g. "04.8.15. ", which is intended
 Numbers can be repeated, so you can simply add "0. " at the beginning of every deck's name if the addon's ordering feature is not needed.
 </details> 
 
-To add thumbnails to decks a folder `icons` should be created inside your `%AnkiUserName%\collection.media\` folder (default path on windows is `C:\Users\%WindowsUserName%\AppData\Roaming\Anki2\%AnkiUserName%\collection.media\`). Then all the thumbnails are placed there in the `.png` format with the filenames corresponding to the deck's names (number excluded).
+To add thumbnails to decks a folder `icons` should be created inside your `%AnkiUserName%\collection.media\` folder (default path on windows is `C:\Users\%WindowsUserName%\AppData\Roaming\Anki2\%AnkiUserName%\collection.media\`). Then all the thumbnails are placed there in the `.png` format with the filenames corresponding to the decks' names (number excluded).
 
 E.g. if the deck's name with the number is "01. DeckName" the thumbnail filename should be `DeckName.png`.
 
