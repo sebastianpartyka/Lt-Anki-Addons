@@ -24,11 +24,15 @@ Numbers can be repeated, so you can simply add "0. " at the beginning of every d
 </details> 
 
 To add thumbnails to decks a folder `icons` should be created inside your `%AnkiUserName%\collection.media\` folder (default path on windows is `C:\Users\%WindowsUserName%\AppData\Roaming\Anki2\%AnkiUserName%\collection.media\`). There all the thumbnails are placed in the `.png` format, with the filenames corresponding to the deck's names (number excluded): if the deck's name with the number is "01. DeckName" the thumbnail filename should be `DeckName.png`.
-If a thumbnail file for a numbered deck is not found, the thumbnail is not displayed, but the styling of the font is still applied and the number is removed:
+
+<details>
+  <summary>specifics</summary> 
+ If a thumbnail file for a numbered deck is not found, the thumbnail is not displayed, but the styling of the font is still applied and the number is removed:
 
 PIC_decknames
 PIC_icons
 PIC_styling
+</details> 
 
 ## Comments
 
