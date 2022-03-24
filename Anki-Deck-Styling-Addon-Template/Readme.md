@@ -5,6 +5,6 @@ The stock example uses a jQuery line to dye the background light-blue. New featu
 
 <center>
 <img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Anki-Deck-Styling-Addon-Template/dyemainwindowlightblue.png">
-<\center>
+</center>
 
 (c) Lt/22
