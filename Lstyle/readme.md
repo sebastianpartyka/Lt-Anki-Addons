@@ -4,8 +4,8 @@ The addon changes the appearance of decks' names in the main window and deck scr
 It also handles the ordering of decks in the main window.
 
 <p float="center">
-  <img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Lstyle/before.png" title="Before" style="width:40%; padding: 0">
-  <img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Lstyle/after.png" title="After" style="width:40%; padding: 0">
+  <img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Lstyle/before.png" title="Before" style="width:40%; margin: 0">
+  <img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Lstyle/after.png" title="After" style="width:40%; margin: 0">
 </p>
 
 ## Installation
