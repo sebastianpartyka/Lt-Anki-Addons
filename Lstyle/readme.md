@@ -5,13 +5,13 @@ It also handles the ordering of decks in the main window.
 
 <div class="row">
   <div class="column">
-    <img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Lstyle/before.png" alt="Snow" style="width:100%">
+    <img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Lstyle/before.png" alt="Snow" style="width:10%">
   </div>
   <div class="column">
-    <img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Lstyle/before.png" alt="Forest" style="width:100%">
+    <img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Lstyle/before.png" alt="Forest" style="width:10%">
   </div>
   <div class="column">
-    <img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Lstyle/before.png" alt="Mountains" style="width:100%">
+    <img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Lstyle/before.png" alt="Mountains" style="width:10%">
   </div>
 </div>
 
