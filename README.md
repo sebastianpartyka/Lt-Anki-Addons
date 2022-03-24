@@ -1,6 +1,6 @@
 there is only one addon so far
 
- - <a href="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/tree/main/Lstyle">Lstyle</a>
+ - [Lstyle](https://github.com/Eltaurus-Lt/Lt-Anki-Addons/tree/main/Lstyle)
 
 
-(54)[https://github.com/Eltaurus-Lt/Lt-Anki-Addons](123)
+[Anki Styling Addon Template](https://github.com/Eltaurus-Lt/Lt-Anki-Addons/tree/main/Anki%20Styling%20Addon%20Template)
