@@ -1,1 +1,0 @@
-$(".isWin").css("background-color", "lightblue");
