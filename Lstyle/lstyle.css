@@ -1,0 +1,40 @@
+.deckthumbnail {
+	vertical-align: middle; 
+	display: inline-block; 
+	margin-right: 30px;
+}
+
+.deckdiv {
+	text-align: center;
+	font-family: HelveticaNeueCyr, "Noto Sans CJK JP", Arial, "Adobe Heiti Std", "BIZ UDPGothic", "MS Gothic";
+	font-weight: bold;
+	font-size: x-large;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+:root{
+	--review-count: royalblue;
+	--new-count: forestgreen; 
+	--learn-count: #ffc900;
+
+	--col-eng: lightblue;
+	--col-kana: gold;
+	--col-jp: coral;
+	--col-jp2: #cd5b45;
+	--col-mem: #ffde5d;var(--col-kana);
+	--col-rus: #f33;
+	--col-conf: OliveDrab;darkOliveGreen;
+	--col-fr: #bbe8ac;
+	--col-deu: SeaGreen;
+	--col-text: SlateGray;
+	--col-img: DeepPink;
+	--font-light: #fffc;
+
+	--lime: invert(77%) sepia(60%) saturate(8%) hue-rotate(40deg) brightness(96%) contrast(143%); //autocomplete styling
+}
+:root.night-mode{
+	--review-count: royalblue;
+	--new-count: forestgreen; 
+	--learn-count: red; 
+}
