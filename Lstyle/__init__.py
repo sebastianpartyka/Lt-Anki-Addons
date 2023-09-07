@@ -1,22 +1,12 @@
-from aqt.webview import AnkiWebView
-from aqt.webview import WebContent
-from aqt import gui_hooks
+from aqt.webview import AnkiWebView, WebContent
+from aqt import gui_hooks, mw
 
-import os
-__location__ = os.path.realpath(
-    os.path.join(os.getcwd(), os.path.dirname(__file__)))
-js_file = os.path.join(__location__, "lstyle.js")
-with open(js_file, "r") as f:
-    lstylettext = f.read()
-
+mw.addonManager.setWebExports(__name__, r".*\.(css|js)$")
 
 def on_webview_will_set_content(web_content: WebContent, context) -> None:
-    web_content.body += f"""
-    <!-- Lstyle addon -->
-    <script> 
-    {lstylettext}
-    </script>
-    """ 
+    addon_package = mw.addonManager.addonFromModule(__name__)
+    web_content.css.append(f"/_addons/Lstyle/lstyle.css")
+    web_content.js.append(f"/_addons/Lstyle/lstyle.js")
 
 gui_hooks.webview_will_set_content.append(on_webview_will_set_content)
 
