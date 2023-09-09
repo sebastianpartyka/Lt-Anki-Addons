@@ -21,8 +21,8 @@ E.g. `DeckName` → `7. DeckName`
 <details>
   <summary>specifics</summary> 
 The added number will not be displayed after the styling is applied by the addon. It is only there for marking decks as well as for manually rearranging them on the main screen.
-Multiple numbers separated by dots can be used, e.g. '04.8.15. ', which is intended for numbering subdecks but is not necessary.
-Numbers can be repeated, so in case manual ordering is not a concern, the same number can be used for all decks, e.g. '0.d '.
+Multiple numbers separated by dots can be used, e.g. "04.8.15. ", which is intended for numbering subdecks but is not necessary.
+Numbers can be repeated, so in case manual ordering is not a concern, the same number can be used for all decks, e.g. "0.d ".
 </details> 
 
 To add thumbnails for decks a folder `icons` should be created inside the `%AnkiUserName%\collection.media\` folder (default path on Windows is `C:\Users\%WindowsUserName%\AppData\Roaming\Anki2\%AnkiUserName%\collection.media\`). After that, the thumbnails are placed in the `icons` folder in `.png` format with the filenames corresponding to the decks' names (numbers excluded).
