@@ -27,18 +27,7 @@ Numbers can be repeated, so you can simply add "0. " at the beginning of every d
 
 To add thumbnails to decks a folder `icons` should be created inside your `%AnkiUserName%\collection.media\` folder (default path on windows is `C:\Users\%WindowsUserName%\AppData\Roaming\Anki2\%AnkiUserName%\collection.media\`). Then all the thumbnails are placed there in the `.png` format with the filenames corresponding to the decks' names (numbers excluded).
 
-E.g. if the deck's name with the number is "01. DeckName" the thumbnail filename should be `DeckName.png`.
-
-<details>
-  <summary>specifics</summary> 
- If a thumbnail file for a numbered deck is not found, the thumbnail is not displayed, but the styling of the font is still applied and the number is removed:
-
-<p align="middle">
-  <img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Lstyle/s0.png" title="Before" style="width:30%">
-  <img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Lstyle/s1.png" title="Icons Folder" style="width:30%">
-  <img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Lstyle/s2.png" title="After" style="width:30%">
-</p>
-</details> 
+E.g. if the deck's name with the number is "01. DeckName" the thumbnail filename should be `DeckName.png` (if a thumbnail file for a numbered deck is not found, the thumbnail is not displayed, but the styling of the font is still applied and the number in the deck name is removed).
 
 ## Comments
 
