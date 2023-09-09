@@ -26,7 +26,8 @@ Numbers can be repeated, so in case manual ordering is not a concern, the same n
 </details> 
 
 To add thumbnails for decks a folder `icons` should be created inside the `%AnkiUserName%\collection.media\` folder (default path on Windows is `C:\Users\%WindowsUserName%\AppData\Roaming\Anki2\%AnkiUserName%\collection.media\`). After that, the thumbnails are placed in the `icons` folder in `.png` format with the filenames corresponding to the decks' names (numbers excluded).
-E.g. if the deck's name with the number is "01. DeckName" the thumbnail filename should be `DeckName.png` (if a thumbnail file for a numbered deck is not found, the thumbnail does not appear, but the addon still removes the number from the displayed name and changes the font).
+E.g. if the deck's name with the number is "01. DeckName" the thumbnail filename should be `DeckName.png`.
+(If a thumbnail file for a numbered deck is not found, the thumbnail does not appear, but the addon still removes the number from the deck's displayed name and changes the font).
 
 ## Comments
 
