@@ -19,7 +19,7 @@ The addon only changes the appearance of the selected decks. In order to mark a 
 E.g. `DeckName` → `7. DeckName`
  
 <details>
-  <summary>specifics</summary> 
+  <summary>details</summary> 
 The added number will not be displayed after the styling is applied by the addon. It is only there for marking decks as well as for manually rearranging them on the main screen.
 Multiple numbers separated by dots can be used, e.g. "04.8.15. ", which is intended for numbering subdecks but is not necessary.
 Numbers can be repeated, so in case manual ordering is not a concern, the same number can be used for all decks, e.g. "0.d ".
