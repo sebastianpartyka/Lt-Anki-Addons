@@ -2,6 +2,10 @@
 	vertical-align: middle; 
 	display: inline-block; 
 	margin-right: 30px;
+	width: 76px;
+	aspect-ratio: 1;
+	object-fit: cover;
+	border-radius: 50%;
 }
 
 .deckdiv {
