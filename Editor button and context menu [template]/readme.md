@@ -1,6 +1,6 @@
-The template for injecting custom css and js to Anki pages.
+The template for injecting custom css and js to Anki windows.
 
-Styles are to be placed inside the `style.css`. The example code in this file overwrites some css variables to change the default color scheme: 
+Styles are to be placed inside the `style.css`. The example code in this file overwrites some Anki css variables to change the default color scheme: 
 
 ![Anki default](https://github.com/Eltaurus-Lt/Lt-Anki-Addons/assets/93875472/b021928a-3080-4db0-91c0-0d8a7ba78c0a)
 
