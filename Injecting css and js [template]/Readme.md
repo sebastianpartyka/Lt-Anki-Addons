@@ -12,4 +12,4 @@ Scripts are to be placed in the `script.js` file. To verify that scripts are wor
 
 ![console log](https://github.com/Eltaurus-Lt/Lt-Anki-Addons/assets/93875472/f9f26ea5-153c-47e8-b6a4-3e31cdc115d6)
 
-Lt/24
+Lt/22-24
