@@ -1,11 +1,15 @@
-This is a base for building Anki addons that modify appearance of the main window (deck list, top menu, and the bar with buttons at the bottom) or the deck windows.
-The kit contains bare bones of a deck styling addon: a JavaScript file to modify html source code of Anki pages and an `__init__` python script to embed the JavaScript into Anki.
+The template for injecting custom css and js to Anki windows.
 
-The stock example uses a jQuery line to dye the background light-blue. New features can be created by adding corresponding code to script.js file. To see the original Anki html the script is modifying and find the right selectors either of the addons [HTML Window source](https://ankiweb.net/shared/info/1214415810) or [AnkiWebView Inspector](https://ankiweb.net/shared/info/31746032) can be used.
+Styles are to be placed inside the `style.css`. The example code in this file overwrites some Anki css variables to change the default color scheme: 
 
-<p align="middle">
-<img src="https://github.com/Eltaurus-Lt/Lt-Anki-Addons/blob/main/pages/Anki-Deck-Styling-Addon-Template/dyemainwindowlightblue.png">
-</p>
+![Anki default](https://github.com/Eltaurus-Lt/Lt-Anki-Addons/assets/93875472/b021928a-3080-4db0-91c0-0d8a7ba78c0a)
 
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;↓
 
-(c) Lt/22
+![with custom css](https://github.com/Eltaurus-Lt/Lt-Anki-Addons/assets/93875472/0094234a-c2c7-4d19-8418-bee8c05de81e)
+
+Scripts are to be placed in the `script.js` file. To verify that scripts are working, the example code prints a message in [the console](https://ankiweb.net/shared/info/31746032):
+
+![console log](https://github.com/Eltaurus-Lt/Lt-Anki-Addons/assets/93875472/f9f26ea5-153c-47e8-b6a4-3e31cdc115d6)
+
+Lt/24
