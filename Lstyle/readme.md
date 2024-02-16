@@ -33,4 +33,4 @@ E.g. if the deck's name with the number is `01. DeckName` the thumbnail filename
 
 The addon is tested to work alongside the "Enhance main window" addon.
 
-(c) Lt/22
+(c) Lt/22-24
