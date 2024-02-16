@@ -1,1 +1,1 @@
-$(".isWin").css("background-color", "lightblue");
+console.log("js is injected")
