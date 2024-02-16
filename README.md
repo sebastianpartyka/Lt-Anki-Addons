@@ -5,5 +5,5 @@ There are two main Add-ons in the repository:
 
 There are also templates, which can be used as a base for building other Anki add-ons:
 
- - [Anki Styling Template](https://github.com/Eltaurus-Lt/Lt-Anki-Addons/tree/main/Anki-Deck-Styling-Addon-Template) - Injects custom css and js into Anki windows to modify styling and functionality
- - [Editor Button](TODO) - Adds a button to the Anki editor toolbar
+ - [Anki Styling Template](https://github.com/Eltaurus-Lt/Lt-Anki-Addons/tree/main/Editor%20button%20and%20context%20menu%20%5Btemplate%5D) - Injects custom css and js into Anki windows to modify styling and front-end functionality
+ - [Editor Button and Context menu](https://github.com/Eltaurus-Lt/Lt-Anki-Addons/tree/main/Injecting%20css%20and%20js%20%5Btemplate%5D) - Adds a button to the Anki editor toolbar and an item to the browser context menu
