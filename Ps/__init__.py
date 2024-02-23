@@ -1,11 +1,10 @@
 import os
 from anki.hooks import addHook
-# from aqt.utils import tooltip
-
-collection_media = 'C:\\....\\collection.media'
-image_field = ""
+from aqt import mw
 
 addon_path = os.path.dirname(__file__)
+
+image_field = ""
 
 def images_from_field(field, note):
     imgs = note[field].split("<img")[1:]
@@ -14,8 +13,7 @@ def images_from_field(field, note):
     imgs = [img.split('"')[1] for img in imgs]
 
     for img in imgs:
-#        tooltip(f'photoshop -o {collection_media}\\{img}')
-        os.popen(f'photoshop -o {collection_media}\\{img}')
+        os.popen(f'photoshop -o {os.path.join(mw.col.media.dir(), img)}')
 
 def edit_in_ps(editor):
     note = editor.note
