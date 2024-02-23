@@ -8,10 +8,8 @@ The Add-on appends a new button to the Anki editor toolbar that allows opening i
 ## Installation and setup
 
 - Copy the `Ps` folder into your `~\addons21\` folder
-- Open `__init__.py` in any text editor
-- In the line starting with `collection_media = ` Replace the dots on the right-hand side with an actual path to your Anki `~collection.media` folder (use double slashes to separate directory levels)
-- (optional) Enter the name of a field on your note type dedicated to images inside quotation marks in the line `image_field = ""`. <br><sub>If the string is left empty, the addon will always open all images from all fields of a card. If there is only one field that contains images, specifying its name won't have an effect.</sub>
-- Make sure Photoshop is added to the PATH system variable. <br><sub>Alternatively, replace the word `photoshop` in the line `os.popen(f'photoshop -o {collection_media}\\{img}')` with a full path to your Photoshop exe file. Other image editor can also be used here instead.</sub>
+- (optional) Open `__init__.py` in any text editor and enter the name of a field on your note type dedicated to images inside quotation marks in the line `image_field = ""`. <br><sub>If the string is left empty, the addon will always open all images from all fields of a card. If there is only one field that contains images, specifying its name here is not necessary and won't have an effect.</sub>
+- Make sure Photoshop is added to the PATH system variable. <br><sub>Alternatively, replace the word `photoshop` in the line `os.popen(f'photoshop -o {os.path.join(mw.col.media.dir(), img)}')` with a full path to your Photoshop exe file. Other image editor can also be specified here instead.</sub>
 
 ## Usage
 
